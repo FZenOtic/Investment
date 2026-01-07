@@ -1,26 +1,11 @@
-
-<template>
-  <div id="app">
-    <router-view />
-  </div>
-</template>
-
 <script setup>
-  console.log("App component loaded");
+  import Home from './view/Home.vue';
+  import Group1 from './view/Group1.vue';
+  import Group2 from './view/Group2.vue';
+  import Group3 from './view/Group3.vue';
+  import Group4 from './view/Group4.vue';
 </script>
 
-
-<style scoped>
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.vue:hover {
-  filter: drop-shadow(0 0 2em #42b883aa);
-}
-</style>
+<template>
+  <router-view /> 
+</template>
